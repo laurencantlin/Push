@@ -1,10 +1,11 @@
 import React from "react";
 import { Row, Col, Input, CardPanel } from "react-materialize";
 // import "./Car.d.css";
+import { Link } from "react-router-dom";
 
 const Nav = props => (
-    <nav class="navbar is-transparent">
-    <div class="navbar-brand">
+    <nav class="navbar is-primary">
+    {/* <div class="navbar-brand">
       <a class="navbar-item" href="https://bulma.io">
         <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28"/>
       </a>
@@ -13,7 +14,7 @@ const Nav = props => (
         <span></span>
         <span></span>
       </div>
-    </div>
+    </div> */}
   
     <div id="navbarExampleTransparentExample" class="navbar-menu">
       <div class="navbar-start">
@@ -32,18 +33,18 @@ const Nav = props => (
         <div class="navbar-item">
           <div class="field is-grouped">
             <p class="control">
-              <a class=" button" href="/push">
+            <Link to="/push" className="button">
                 <span>
                   + push
                 </span>
-              </a>
+            </Link>
+
             </p>
             <p class="control">
-              <a class="button is-primary" href="/food">
+            <Link to="/food" className="button">
                
                 <span>+ food</span>
-              </a>
-            </p>
+</Link>            </p>
           </div>
         </div>
       </div>
