@@ -13,7 +13,7 @@ app.use(express.static("client/build"));
 
 // Send every request to the React app
 // Define any API routes before this runs
-app.use(routes);
+// app.use(routes);
 
 
 app.listen(PORT, function() {
