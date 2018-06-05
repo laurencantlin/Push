@@ -17,6 +17,7 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
+    "antd": "^3.5.4",
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "bulma": "^0.7.1",
