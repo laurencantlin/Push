@@ -4,35 +4,35 @@ import { Row, Col, Input, CardPanel } from "react-materialize";
 import { Link } from "react-router-dom";
 
 const Nav = props => (
-    <nav class="navbar is-primary">
-    {/* <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
+    <nav className="navbar is-primary">
+    {/* <div className="navbar-brand">
+      <a className="navbar-item" href="https://bulma.io">
         <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28"/>
       </a>
-      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+      <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
         <span></span>
         <span></span>
         <span></span>
       </div>
     </div> */}
-  
-    <div id="navbarExampleTransparentExample" class="navbar-menu">
-      <div class="navbar-start">
-        <a class="navbar-item" href="https://bulma.io/">
+    
+    <div id="navbarExampleTransparentExample" className="navbar-menu">
+      <div className="navbar-start">
+        <a className="navbar-item" href="/">
           Home
         </a>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="/documentation/overview/start/">
+        {/* <div className="navbar-item has-dropdown is-hoverable">
+          <a className="navbar-link" href="/documentation/overview/start/">
             Docs
           </a>
           
-        </div>
+        </div> */}
       </div>
   
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <div class="field is-grouped">
-            <p class="control">
+      <div className="navbar-end">
+        <div className="navbar-item">
+          <div className="field is-grouped">
+            <p className="control">
             <Link to="/push" className="button">
                 <span>
                   + push
@@ -40,7 +40,7 @@ const Nav = props => (
             </Link>
 
             </p>
-            <p class="control">
+            <p className="control">
             <Link to="/food" className="button">
                
                 <span>+ food</span>

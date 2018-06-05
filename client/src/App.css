@@ -1,3 +1,5 @@
+
+/* app.css */
 .App {
   text-align: center;
 }
@@ -6,6 +8,7 @@
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
+/* body{background: aqua} */
 
 .App-header {
   background-color: #222;
@@ -21,6 +24,12 @@
 .App-intro {
   font-size: large;
 }
+:root {
+  --sectcolor: coral;
+  --main-txt-color: blue; 
+  --main-padding: 15px; 
+}
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
